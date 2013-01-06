@@ -9,9 +9,6 @@
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
 
-  <remote  name="jellybam"
-           fetch="https://github.com/iGio90/" />
-
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
