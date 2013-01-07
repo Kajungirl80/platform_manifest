@@ -5,6 +5,9 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="rootbox"
+	   fetch="https://github.com/Root-Box/" />
+
   <remote  name="aokp"
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
@@ -47,14 +50,14 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7000" name="device_samsung_n7000" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="jellybam" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/n7000" name="device_samsung_n7000" remote="jellybam" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
@@ -221,7 +224,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="jellybam" revision="jellybam-4.2.1" />
+  <project path="frameworks/base" name="frameworks_base" remote="rootbox" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
