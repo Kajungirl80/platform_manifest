@@ -30,7 +30,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="jellybam" name="builder" remote="jellybam" revision="jellybam-4.2.1" >
-    <copyfile src="build.sh" dest="build.sh" />
+    <copyfile src="rom-build.sh" dest="rom-build.sh" />
+    <copyfile src="all-build.sh" dest="all-build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="aokp" revision="jb-mr1" />
@@ -393,7 +394,6 @@
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
