@@ -381,7 +381,7 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="themuppets" revision="cm-10.1" />
-  <project path="vendor/asus" name=proprietary_vendor_asus"" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/asus" name=proprietary_vendor_asus" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/google" name="proprietary_vendor_google" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
