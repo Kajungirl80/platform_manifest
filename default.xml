@@ -16,7 +16,7 @@
   <remote  name="jellybam"
 	   fetch="https://github.com/iGio90/" />
 
-  <remote  name="jellybam"
+  <remote  name="themuppets"
            fetch="https://github.com/TheMuppets/" />
 
   <remote  name="gh"
