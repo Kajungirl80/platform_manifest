@@ -296,6 +296,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -384,6 +385,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-10.1" />
 
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cm" revision="cm-10.1" />
@@ -409,6 +411,7 @@
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
 
+  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
