@@ -260,9 +260,6 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" /> 	
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />	  	
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -406,10 +403,15 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
+
+  <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
 
   <project path="platform_manifest" name="platform_manifest" remote="jellybam" revision="jellybam-4.2.1" />
 </manifest>
