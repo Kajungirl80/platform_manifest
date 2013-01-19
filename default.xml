@@ -387,6 +387,8 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-10.1" />
 
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
