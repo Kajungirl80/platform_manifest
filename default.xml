@@ -16,6 +16,9 @@
   <remote  name="jellybam"
 	   fetch="https://github.com/iGio90/" />
 
+  <remote  name="jellybam"
+           fetch="https://github.com/TheMuppets/" />
+
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
@@ -47,27 +50,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="jellybam" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7000" name="device_samsung_n7000" remote="jellybam" revision="jb-mr1" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
-  <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -396,6 +378,35 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/asus" name=proprietary_vendor_asus"" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/google" name="proprietary_vendor_google" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-10.1" />
+
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="jellybam" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/n7000" name="device_samsung_n7000" remote="jellybam" revision="jb-mr1" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+  <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
 
   <project path="platform_manifest" name="platform_manifest" remote="jellybam" revision="jellybam-4.2.1" />
 </manifest>
