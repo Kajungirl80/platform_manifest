@@ -413,7 +413,7 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/n7100" name="android_device_samsung_n1000" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n8000" name="android_device_samsung_n8000" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
@@ -425,8 +425,8 @@
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="cm" revision="cm-10.1" />
   <project path="device/sony/mint" name="android_device_sony_mint" remote="cm" revision="cm-10.1" />
 
-  <project path="kernel/lge/p970" name="android_kernel_lge-kernel-sniper" remote="cm" revision="android-omap3-3.0" />
-  <project path="kernel/lge/star" name="android_kernel_lge-kernel-star" remote="cm" revision="cm-10.1" />
+  <project path="kernel/lge/p970" name="lge-kernel-sniper" remote="cm" revision="android-omap3-3.0" />
+  <project path="kernel/lge/star" name="lge-kernel-star" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
