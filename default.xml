@@ -390,7 +390,7 @@
   <project path="device/lge/p970" name="android_device_lge_p970" remote="cm" revision="cm-10.1" />
   <project path="device/lge/p990" name="android_device_lge_p990" remote="cm" revision="cm-10.1" />
   <project path="device/lge/star-common" name="android_device_lge_star-common" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cm" revision="mr1-staging" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.1" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="cm" revision="cm-10.1" />
