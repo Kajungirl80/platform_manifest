@@ -32,6 +32,7 @@
   <project path="jellybam" name="builder" remote="jellybam" revision="jellybam-4.2.1" >
     <copyfile src="rom-build.sh" dest="rom-build.sh" />
     <copyfile src="all-build.sh" dest="all-build.sh" />
+    <copyfile src="fullbuil.sh" dest="fullbuild.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="aokp" revision="jb-mr1" />
@@ -371,8 +372,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/jellybam" name="vendor_jellybam" remote="jellybam" revision="jellybam-4.2.1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="cm-10.1" />
+  <project path="fullbuild" name="jellybam_full_build" remote="jellybam" revision="jellybam-4.2.1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
