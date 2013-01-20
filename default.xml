@@ -407,10 +407,10 @@
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i777" name="android_device_samsung_i777" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="cm" revision="cm-10.1" />
@@ -419,7 +419,7 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="cm" revision="cm-10.1" />
