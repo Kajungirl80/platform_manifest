@@ -403,6 +403,8 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="jellybam" revision="jb-mr1" />
+  <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="jellybam" revision="jb-mr1" />
@@ -417,7 +419,6 @@
 
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
