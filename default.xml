@@ -393,6 +393,7 @@
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/ville" name="android_device_htc_ville" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
