@@ -387,6 +387,9 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-10.1" />
 
+  <project path="device/lge/p970" name="android_device_lge_p970" remote="cm" revision="cm-10.1" />
+  <project path="device/lge/p990" name="android_device_lge_p990" remote="cm" revision="cm-10.1" />
+  <project path="device/lge/star-common" name="android_device_lge_star-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
@@ -419,6 +422,8 @@
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="cm" revision="cm-10.1" />
   <project path="device/sony/mint" name="android_device_sony_mint" remote="cm" revision="cm-10.1" />
 
+  <project path="kernel/lge/p970" name="android_kernel_lge-kernel-sniper" remote="cm" revision="android-omap3-3.0" />
+  <project path="kernel/lge/star" name="android_kernel_lge-kernel-star" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
