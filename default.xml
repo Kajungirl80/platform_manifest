@@ -397,7 +397,7 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.1" />
