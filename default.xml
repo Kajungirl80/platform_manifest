@@ -387,7 +387,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-10.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-10.1" />
 
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
