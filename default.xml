@@ -32,7 +32,7 @@
   <project path="jellybam" name="builder" remote="jellybam" revision="jellybam-4.2.1" >
     <copyfile src="rom-build.sh" dest="rom-build.sh" />
     <copyfile src="all-build.sh" dest="all-build.sh" />
-    <copyfile src="fullbuil.sh" dest="fullbuild.sh" />
+    <copyfile src="fullbuild.sh" dest="fullbuild.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="aokp" revision="jb-mr1" />
