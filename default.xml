@@ -416,6 +416,8 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="cm" revision="cm-10.1" />
+  <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="cm" revision="cm-10.1" />
+  <project path="device/sony/mint" name="android_device_sony_mint" remote="cm" revision="cm-10.1" />
 
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="mr1-staging" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-10.1" />
@@ -425,6 +427,7 @@
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
+  <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="cm" revision="cm-10.1" />
 
   <project path="platform_manifest" name="platform_manifest" remote="jellybam" revision="jellybam-4.2.1" />
 </manifest>
