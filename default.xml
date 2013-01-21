@@ -406,8 +406,10 @@
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/ville" name="android_device_htc_ville" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/pyramid" name="elelinux/android_device_htc_pyramid" remote="gh" revision="cm-10.1" />
+  <project path="device/htc/msm8660-common" name="TeamJB/android_device_htc_msm8660-common" remote="gh" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/ville" name="android_device_htc_ville" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="jellybam" revision="jellybam-4.2.1" />
@@ -441,6 +443,7 @@
   <project path="kernel/lge/p970" name="lge-kernel-sniper" remote="cm" revision="android-omap3-3.0" />
   <project path="kernel/lge/star" name="lge-kernel-star" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="mr1-staging" />
+  <project path="kernel/htc/msm8660" name="TeamJB/android_kernel_htc_msm8660" remote="gh" revision="cm-10.1" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
