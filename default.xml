@@ -413,17 +413,17 @@
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i777" name="android_device_samsung_i777" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="cm" revision="cm-10.1" />
