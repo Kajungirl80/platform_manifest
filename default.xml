@@ -404,7 +404,7 @@
   <project path="device/lge/p990" name="android_device_lge_p990" remote="cm" revision="cm-10.1" />
   <project path="device/lge/star-common" name="android_device_lge_star-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="jellybam" revision="jellybam-4.2.1" />
-  <project path="device/htc/evita" name="android_device_htc_evita" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/evita" name="android_device_htc_evita" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="cm" revision="cm-10.1" />
@@ -412,7 +412,7 @@
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="jellybam" revision="jellybam-4.2.1" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
@@ -421,7 +421,7 @@
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i777" name="android_device_samsung_i777" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="android_device_samsung_i9100g" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
